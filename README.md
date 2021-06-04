@@ -28,7 +28,7 @@ bash scripts/celeba/settransformer/training/minibatch_training/_setsize_.sh
 ```SlotSetEncoder
 bash scripts/celeba/consistent/training/minibatch_training_xxx/_setsize_.sh
 ```
-_setsize_ is one of 100, 200, 500 and 1000. For the Slot Set Encoder model, xxx is either learned or random.
+\_setsize\_ is one of 100, 200, 500 and 1000. For the Slot Set Encoder model, xxx is either learned or random.
 
 ## Mini-Batch Testing for MBC models.
 After training, you can perform Mini-Batch testing with the model trained on 1000 elements by running:

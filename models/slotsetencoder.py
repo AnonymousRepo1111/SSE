@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+__all__ = ['SlotSetEncoder']
+
 class SlotSetEncoder(nn.Module):
     def __init__(self, K, h, d, d_hat, eps=1e-8, _slots='Random', rtol=1e-4):
         super(SlotSetEncoder, self).__init__()

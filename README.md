@@ -6,6 +6,11 @@ This repository contains the accompanying code for SSE.
 ```
 torch==1.8.0
 torchvision==0.9.0
+torch-cluster==1.5.9
+torch-geometric==1.7.0
+torch-scatter==2.0.6
+torch-sparse==0.6.9
+torch-spline-conv==1.2.1
 ```
 
 ## Empirical Verification of Proposition 1 \& 2
